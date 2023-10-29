@@ -23,7 +23,7 @@ import com.project.dev.soundtomusicsheet.struct.symbol.Tempo;
 import com.project.dev.soundtomusicsheet.writer.MusicSheetFileWriter;
 
 /**
- * TODO: Definición de {@code Application}.
+ * TODO: Description of {@code Application}.
  *
  * @author Dyson Parra
  * @since 11

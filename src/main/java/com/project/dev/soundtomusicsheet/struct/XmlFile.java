@@ -25,7 +25,7 @@ import java.io.Serializable;
 import lombok.Data;
 
 /**
- * TODO: Definición de {@code XmlFile}.
+ * TODO: Description of {@code XmlFile}.
  *
  * @author Dyson Parra
  * @since 11
@@ -40,7 +40,7 @@ public class XmlFile implements Serializable {
     private boolean ignoreRestsAtEnd;                   // Si se borrarán los descansos al final del archivo de partitura xml.
 
     /**
-     * TODO: Definición de {@code XmlFile}.
+     * TODO: Description of {@code XmlFile}.
      *
      */
     public XmlFile() {
@@ -49,7 +49,7 @@ public class XmlFile implements Serializable {
     }
 
     /**
-     * TODO: Definición de {@code XmlFile}.
+     * TODO: Description of {@code XmlFile}.
      *
      * @param source
      * @param ignoreRestsAtEnd
@@ -60,7 +60,7 @@ public class XmlFile implements Serializable {
     }
 
     /**
-     * FIXME: Definición de {@code validateXml}. Verifica si el objeto de partitura xml se puede
+     * FIXME: Description of {@code validateXml}. Verifica si el objeto de partitura xml se puede
      * usar para agregar notas al final.
      *
      * @return true si se puede usar (Un solo pentagrama y una solo nota a la vez), false en caso
@@ -133,7 +133,7 @@ public class XmlFile implements Serializable {
     }
 
     /**
-     * FIXME: Definición de {@code atoi}. Obtiene los números de un string.
+     * FIXME: Description of {@code atoi}. Obtiene los números de un string.
      *
      * @param str String al que se le hallarán los números que tiene.
      * @return los números del String como entero.
@@ -162,7 +162,7 @@ public class XmlFile implements Serializable {
     }
 
     /**
-     * FIXME: Definición de {@code obtainValue}. Obtiene un valor de un string encerrado en ">?<"
+     * FIXME: Description of {@code obtainValue}. Obtiene un valor de un string encerrado en ">?<"
      *
      * @param str String al que se le hallará edicho valor.
      * @return el valor de el String encerrado en ><.
@@ -187,7 +187,7 @@ public class XmlFile implements Serializable {
     }
 
     /**
-     * FIXME: Definición de {@code convertToMusicSheet}. Convierte un archivo de partitura xml en un
+     * FIXME: Description of {@code convertToMusicSheet}. Convierte un archivo de partitura xml en un
      * objeto de tipo partitura.
      *
      * @return Un objeto de tipo partitura.
