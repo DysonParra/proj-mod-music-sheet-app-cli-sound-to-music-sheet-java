@@ -48,8 +48,8 @@ public class MeasureCreator {
         byte keySignature;                          // Indica la nueva armadura de clave de la partitura.
 
         // Almacena el indicador de compás en quantity y noteType.
-        quantity = Byte.valueOf(strNoteQuantity);
-        noteType = Byte.valueOf(strNoteType);
+        quantity = Byte.parseByte(strNoteQuantity);
+        noteType = Byte.parseByte(strNoteType);
 
         // Almacena la clave del compás en key.
         switch ((int) spnKeyId) {
@@ -68,7 +68,7 @@ public class MeasureCreator {
         keyLine = (byte) (spnKeyLineId + 1);
 
         // Almacena el valor del transporte por octavas de la clave.
-        clefOctave = Byte.valueOf(strTranspose);
+        clefOctave = Byte.parseByte(strTranspose);
 
         // Si el indice de la armadura es 0, no hay armadura, si es entre 1 y 7 es de bemoles, y si es entre 8 y 14 es de sostenidos.
         if (spnSignatureId == 0)
